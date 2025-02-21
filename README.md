@@ -61,7 +61,7 @@ docker push <your-ecr-repo-url>:latest
 3. If no issues occur, old version is **terminated**.
 
 ## 📊 Architecture Diagram
-![Architecture](diagrams/architecture.png)
+![Architecture](architecture.png)
 
 ## 📝 Additional Notes
 - **All Terraform files contain comments** to explain their purpose.
