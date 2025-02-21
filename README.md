@@ -18,12 +18,12 @@ dummy-data-api-infra/
 │   ├── ecr.tf                 # ECR repository for storing container images
 │   ├── provider.tf            # AWS provider configuration
 │   ├── backend.tf             # Remote backend configuration (S3 & DynamoDB)
-│   ├── .gitignore             # Ignore sensitive files (e.g., terraform.tfvars)
+│   ├── codedeploy.tf          # Defines AWS CodeDeploy configuration for blue-green deployment of the ECS service.
+│   ├── codepipeline.tf        # Configures AWS CodePipeline for automated CI/CD deployment to ECS.
+│   ├── ecs_task.tf            # Defines the ECS task definition, including container configuration and resource limits.
 ├── .github/workflows/         # CI/CD pipeline (for GitHub Actions)
 │   ├── deploy.yml             # Deploys the infrastructure and application
 │   ├── lint.yml               # Linting, SAST, and code quality checks
-├── cicd/                      # GitLab CI/CD files (if using GitLab)
-│   ├── gitlab-ci.yml          # CI/CD pipeline for GitLab
 ├── diagrams/                  # Architecture diagram files
 │   ├── architecture.png       # Detailed architecture diagram
 ├── README.md                  # Documentation for setup and usage
