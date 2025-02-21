@@ -24,8 +24,7 @@ dummy-data-api-infra/
 ├── .github/workflows/         # CI/CD pipeline (for GitHub Actions)
 │   ├── deploy.yml             # Deploys the infrastructure and application
 │   ├── lint.yml               # Linting, SAST, and code quality checks
-├── diagrams/                  # Architecture diagram files
-│   ├── architecture.png       # Detailed architecture diagram
+├── architecture.png           # Detailed architecture diagram
 ├── README.md                  # Documentation for setup and usage
 ```
 
